@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#f6f8ca;
+  }
+  
+  .stopwatch-container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+
+  }
+  
+  .circle {
+    width: 300px;
+    height: 300px;
+    border: 4px solid #1c237a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  
+  #time {
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #start-stop {
+    background-color: #207dd4;
+    color: #fff;
+    border-radius: 50px;
+  }
+  
+  #reset {
+    background-color: #da4f45;
+    color: #fff;
+    border-radius: 50px;
+  }
+  
+  #lap {
+    background-color: #67cf2b;
+    color: #fff;
+    border-radius: 50px;
+  }
+  
+  .laps {
+    margin-top: 20px;
+  }
+  
+  .laps ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .laps ul li {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
